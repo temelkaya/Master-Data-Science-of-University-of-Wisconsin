@@ -3,9 +3,9 @@ name: cft-deploy
 on:
   push:
     branches:
-      - feature/cft-dev
+      - feature/**
     pull_request:
-      - master
+      
 
 jobs:
   cft-actions:
