@@ -17,4 +17,4 @@ jobs:
       uses: actions/checkout@master
 
     - name: Deploy CFT to aws in us-east-1
-      run: aws cloudformation deploy --template-file vpc.iac.json --stack-name vpc-stack --parameter-overrides KeyNmae=task2
+      run: aws cloudformation deploy --template-file vpc.iac.json --stack-name vpc-stack --parameter-overrides KeyName=task2
